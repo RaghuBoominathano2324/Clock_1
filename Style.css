@@ -1,0 +1,97 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+ 
+
+}
+
+body{
+    
+    background-image: url('maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hours,.Minutes,.Seconds{
+
+    /* font-family: ; */
+}
+
+#CountDown{
+    display: flex ;
+    flex-direction: column;
+    border: 1px solid blue;
+    margin: 2px;
+    background: linear-gradient(yellow,green);
+    color: rgb(207, 207, 14);
+    transition: transform 0.3s ease;
+ 
+}
+#CountDown:hover{
+    transform: scale(1.2);
+}
+
+.Dot{
+font-size: 40px;
+color: orange;
+margin-top: 14px;
+
+
+
+
+
+
+
+}
+
+
+
+.InnerContiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.time{
+    justify-content: space-between;
+}
+
+
+.time1,.time2,.time3,.time4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    margin: 50px;
+    border: 2px solid blue;
+    /* border-radius: 50%; */
+    width: 30px;
+ 
+}
+small{
+    font-size: 10px;
+    font-weight: bold;
+}
+#Year{
+
+    position: absolute;
+    font-size: 45px;
+    bottom: 12px;
+    opacity: 0.5;
+    text-shadow: 3px;
+}
+
